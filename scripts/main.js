@@ -2,10 +2,10 @@ const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/forex.JPG") {
-    myImage.setAttribute("src", "images/eurcadb.PNG");
+  if (mySrc === "images/forex.jpg") {
+    myImage.setAttribute("src", "images/eurcadb.png");
   } else {
-    myImage.setAttribute("src", "images/forex.JPG");
+    myImage.setAttribute("src", "images/forex.jpg");
   }
 };
 let myButton = document.querySelector("button");
